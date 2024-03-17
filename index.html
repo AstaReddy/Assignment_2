@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utility Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Vowels and Consonants Counter</h2>
+    <input type="text" id="input_text" placeholder="Enter a string">
+    <button onclick="count_vowels_consonants()">Count</button>
+    <p id="count_result"></p>
+
+    <h2>Palindrome Checker</h2>
+    <input type="text" id="input_number" placeholder="Enter a series of numbers">
+    <button onclick="check_palindrome()">Check Palindrome</button>
+    <p id="palindrome_result"></p>
+
+    <h2>Tip Calculator</h2>
+    <input type="number" id="input_total" placeholder="Subtotal">
+    <input type="number" id="input_tip" placeholder="Tip Percentage">
+    <button onclick="calculate_tip_total()">Calculate</button>
+    <p id="tip_result"></p>
+
+    <script src="index.js"></script>
+</body>
+</html>
